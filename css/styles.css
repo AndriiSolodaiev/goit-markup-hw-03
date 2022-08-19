@@ -357,7 +357,8 @@ color: var(--title-text-color-dark-bcgr);
 }
 .project-item {
     padding-bottom: 20px;
-    outline: 1px solid #EEEEEE;
+    max-width: 370px;
+    border: 1px solid #EEEEEE;
 }
 
 .project-title,
