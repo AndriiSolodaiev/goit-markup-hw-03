@@ -356,18 +356,19 @@ color: var(--title-text-color-dark-bcgr);
     gap: 30px;
 }
 .project-item {
+    flex-basis: calc((100% - 60px) / 3);
+}
+.project-border {
+    padding-top: 20px;
     padding-bottom: 20px;
-    max-width: 370px;
     border: 1px solid #EEEEEE;
 }
-
 .project-title,
 .project-identifire {
     padding-left: 24px;
     padding-right: 24px;
 }
 .project-title {
-    margin-top: 20px;
     margin-bottom: 4px;
 
     font-weight: 700;
